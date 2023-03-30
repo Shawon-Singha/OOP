@@ -9,7 +9,7 @@ public class Student
     Student()
     {
         Name = "Shawon";
-        age = 3500;
+        age = 21;
     }
 
     void display()
