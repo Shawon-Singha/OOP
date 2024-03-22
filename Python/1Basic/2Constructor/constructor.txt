@@ -1,0 +1,5 @@
+all classes have a function called __initt__(),which is always excited .....
+
+class student:
+    def __init__(self,fullname):
+        self.name = fullname
