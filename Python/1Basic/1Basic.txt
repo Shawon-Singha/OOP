@@ -1,0 +1,9 @@
+Class & object in python
+class is a blueprint for creating objects.
+
+#creating class:
+class 'className':
+    variabeName = ....
+
+#creating object
+objectName = That_ClassName()
