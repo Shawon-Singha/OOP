@@ -1,10 +1,14 @@
 class student():
-    def __init__(self,fullname):
+    def __init__(self,fullname,marks):
         self.name = fullname
+        self.marks = marks
     
     def hello(self):
-        print("Hello")
+        print("Hello",self.name)
 
-s1 = student("Shawon")
+    def get_marks(self):
+        return self.marks
+
+s1 = student("Shawon",76)
 s1.hello()
-print(s1.name)
+print(s1.get_marks())
