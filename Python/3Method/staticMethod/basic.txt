@@ -1,0 +1,6 @@
+Method that do not use self parameter and work at class level
+
+class stu:
+    @staticmethodd  #decorator
+    def college():
+        print(")
