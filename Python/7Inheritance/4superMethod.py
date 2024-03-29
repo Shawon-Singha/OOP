@@ -12,8 +12,10 @@ class car:
 
 class toyotaCar(car):
     def __init__(self,name,type):
-        self.name = name
         super().__init__(type)  #called super class constructor and same for attribute
+        self.name = name
+        super().start(self)
+
 
 car1 = toyotaCar("sClass","Classic")
 print(car1.name)
