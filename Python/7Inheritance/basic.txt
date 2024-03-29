@@ -5,3 +5,9 @@ class car:
 
 class toyota(car):
     #code execute
+
+
+Inheritance is 3 types
+  1. Single Inheritance
+  2.Multi Level Inheritance
+  3.Multiple Inheritance
