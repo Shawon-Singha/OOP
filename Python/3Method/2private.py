@@ -28,5 +28,5 @@ print("\t\t\tWelcome to our bank")
 
 ac1 = account("1234", "abc23")
 print("Your account number is ",ac1.acc_no)
-print("Your pass word is ",ac1.get_pass())
+print("Your pass word is ",ac1.get_pass()) 
 print("Warning! Please, do not forget your password")

@@ -1,0 +1,7 @@
+when one class(child) derives the properties & methods of another class(parent)
+
+class car:
+    #code written
+
+class toyota(car):
+    #code execute
